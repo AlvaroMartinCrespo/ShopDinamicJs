@@ -1,0 +1,13 @@
+#lista-carrito {
+  z-index: 99;
+  right: 20px;
+  border-radius: 5px;
+}
+
+#miMensaje {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 9999;
+  display: none;
+}

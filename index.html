@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./public/style/reset.css" />
+    <link rel="stylesheet" href="./public/style/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazonia</title>
+  </head>
+  <body>
+    <!-- Título -->
+
+    <div class="w-100 bg-dark p-5 text-center text-white">
+      <nav class="d-flex justify-content-between align-items-center mr-5">
+        <h1 id="titulo" class="display-4">Amazonia</h1>
+
+        <span id="carrito">
+          <button class="btn text-white">Carrito</button>
+          <div id="lista-carrito" class="position-absolute d-none bg-white shadow-lg float text-black-50">
+            <table class="table" id="contenedor-carro">
+              <th>Imagen</th>
+              <th>Nombre</th>
+              <th>Precio</th>
+              <th>Cantidad</th>
+              <th></th>
+            </table>
+            <div class="d-block">
+              <button id="vaciarCarrito" class="button add btn btn-primary mb-3">Vaciar el carrito</button>
+            </div>
+          </div>
+        </span>
+      </nav>
+    </div>
+
+    <div class="d-flex">
+      <!-- Filtro -->
+      <div id="filter-container" class="w-25 h-100 m-4 fixed-sidebar border p-5">
+        <form>
+          <fieldset id="filtro-categoria" name="filtro-categoria">
+            <legend>Filtros por categoría:</legend>
+          </fieldset>
+        </form>
+      </div>
+
+      <!-- Productos -->
+      <div id="products-container" class="w-75 d-flex flex-wrap justify-content-center align-items-center m-2"></div>
+    </div>
+
+    <!-- Mensaje de información al cliente -->
+    <div class="alert alert-success float-left" id="miMensaje">
+      <p class="m-0">Este es un mensaje flotante</p>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
