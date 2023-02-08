@@ -14,8 +14,8 @@ Open the index.html file in your browser to launch the store
 # Built With
 - JavaScript
 - Bootstrap
-- Contributions
 
+# Contributions
 We welcome contributions to the project. If you have an idea for a new feature or have found a bug, please feel free to open an issue or submit a pull request.
 
 License
