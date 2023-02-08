@@ -18,5 +18,3 @@ Open the index.html file in your browser to launch the store
 # Contributions
 We welcome contributions to the project. If you have an idea for a new feature or have found a bug, please feel free to open an issue or submit a pull request.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
